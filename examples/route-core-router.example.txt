@@ -1,0 +1,8 @@
+# Routing mode
+# Agregar en el router/core de la red institucional:
+
+172.27.240.0/24 via 192.168.10.20
+
+# Donde:
+# 172.27.240.0/24 = red VPN WireGuard
+# 192.168.10.20   = IP LAN del servidor WireGuard
