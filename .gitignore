@@ -1,0 +1,19 @@
+# Local config
+config/wg-server.env
+*.local
+*.secret
+
+# WireGuard secrets/configs
+*.key
+*.conf.private
+clients/
+keys/
+
+# Backups
+*.tar.gz
+*.bak
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
